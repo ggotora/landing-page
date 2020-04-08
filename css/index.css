@@ -15,7 +15,6 @@ img {
     position: fixed;
     width: 100%;
     height: 10vh;
-
 }
 #header-img img {
     width : 80px;
@@ -38,6 +37,21 @@ img {
   color: #fff;
 }
 
-.section{
-    height: 100vh;
+.main {
+  width: 80%;
+ padding-top: 200px;
+}
+input[type=email]{
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+input[type=submit]{
+  width: 40%;
+  padding: 15px;
+
+  border-radius: 5px;
+  border: 1px solid black;
 }
