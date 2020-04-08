@@ -85,12 +85,12 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
-    
+
       #demo h1 {
           font-size: 1.5rem;
       }
       #nav-bar {
           display: none;
       }
-    
+
   }
