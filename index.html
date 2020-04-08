@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anya and Gilbert's Guitars</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header id="header-img">
@@ -26,10 +27,11 @@
            </nav>
     </header>
     <form id="Demo" action="https://www.freecodecamp.com/email-submit">
-        <input type="email" placeholder="Enter email for our newsletter" required>
+        <label for="email"></label>
+        <input type="email" placeholder="Enter email for our newsletter" id="email" required>
         <input type="submit" id="submit" value="Submit">
     </form>
-    <section class="demo">
+    <section class="demo" class="welcome">
         <div class="iframe-wrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/XrkhCTscA1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

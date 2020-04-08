@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+#header-img{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+
+}
+#header-img img {
+    width : 80px;
+}
+#nav-bar {
+    justify-self: end;
+    height: 100%;
+
+}
+#nav-bar ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+#nav-bar a {
+  text-decoration: none;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.section{
+    height: 100vh;
+}
