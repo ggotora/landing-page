@@ -6,36 +6,43 @@
     <title>Anya and Gilbert's Guitars</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
-    <header id="header-img">
-        <img src="https://www.flaticon.com/premium-icon/icons/svg/1776/1776701.svg" alt="logo">
+<body id="home">
+    <header id="header">
+        <img src="https://www.flaticon.com/premium-icon/icons/svg/1776/1776701.svg" alt="logo" id="header-img">
         <nav id="nav-bar">
           <ul>
             <li>
-              <a href="#home" id="nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
              <li>
-               <a href="#about" id="nav-link">About</a>
+               <a href="#about" class="nav-link">About</a>
              </li>
              <li>
-               <a href="#demo" id="nav-link">Demo</a>
+               <a href="#video" class="nav-link">Demo</a>
              </li>
              <li>
-               <a href="#contact" id="nav-link">Contact</a>
+               <a href="#contact" class="nav-link">Contact</a>
              </li>
            </ul>
            </nav>
     </header>
     <div class="main">
-
-      <form id="Demo" action="https://www.freecodecamp.com/email-submit">
+      <h1> SignUp for our news letter</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <div
           <label for="email"></label>
-          <input type="email" placeholder="Enter email for our newsletter" id="email" required>
+          <input type="email" name="email" placeholder="Enter email for our newsletter" id="email" required>
+        </div>
+        <div>
           <input type="submit" id="submit" value="Submit">
+        </div>
       </form>
+      <div id="about"></div>
+
+      <div id="contact"></div>
       <section class="demo" class="welcome">
           <div class="iframe-wrapper">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/XrkhCTscA1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/XrkhCTscA1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
       </section>
 
